@@ -8,6 +8,7 @@ This project is built using custom and built in NodeJS modules and HTML, built i
 
 - HTTP
 - URL
+- FS (File System)
 
 ## Getting started
 
