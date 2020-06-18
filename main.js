@@ -1,10 +1,11 @@
 var http = require('http')
-var date = require('./src/time')
+var url = require('url')
+
 
 http.createServer((request,response) => {
   response.writeHead(200, {'Content-Type': 'text/html'})
-  response.write(`<p>${request.url}</p>`)
-  response.write(`The date and time are currently: ${date.timeNow()}`)
-  response.end()
+  const query = url.parse(request.url, true).query
+  const text = query.year + " " + query.month
+  response.end(text)
 }).listen(8080)
 
