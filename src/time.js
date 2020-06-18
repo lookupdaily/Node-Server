@@ -1,5 +1,3 @@
-const timeNow = () => {
+exports.timeNow = () => {
   return Date()
 }
-
-module.exports = timeNow
