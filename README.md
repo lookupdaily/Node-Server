@@ -13,7 +13,7 @@ This project is built using custom and built in NodeJS modules and HTML, built i
 ## Getting started
 
 1. Clone this repo and navigate to directory in the command line
-2. Install node - `brew install node`
+2. Install node - `brew install node` or visit https://nodejs.org/en/download/
 3. Run `npm start`
 4. Visit http://localhost:8080/ in your browser
 
