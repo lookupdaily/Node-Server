@@ -4,7 +4,7 @@ Going back to basics and looking at the fundamentals of web servers, without the
 
 ## Technologies
 
-This project is built using NodeJS modules and HTML, built in modules used:
+This project is built using custom and built in NodeJS modules and HTML, built in modules used:
 
 - HTTP
 - URL
